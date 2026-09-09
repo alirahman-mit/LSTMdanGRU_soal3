@@ -1,6 +1,0 @@
-# Versioning Documentation
-
-| Tanggal | Aplikasi | Versi | Permasalahan | Pemecahan | Pembaharuan Fitur | Lanjut ke Versi Berikutnya | Link | Dokumentasi |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 10-09-2026 | Weather Temperature Forecasting | V1 | Model baseline menggunakan konteks 24 timestep untuk memprediksi temperatur berikutnya. | Menggunakan arsitektur LSTM 32 unit dengan sequence length 24. | Implementasi awal time series forecasting menggunakan LSTM. | Menguji sequence length 48. | [LINK DEPLOYMENT WEATHER V1] | Baseline LSTM Seq 24 |
-| 10-09-2026 | Weather Temperature Forecasting | V2 | Perlu diuji apakah penggunaan konteks historis yang lebih panjang dapat memengaruhi hasil forecasting. | Sequence length diubah dari 24 menjadi 48 timestep dengan arsitektur LSTM yang sama. | Konteks historis diperpanjang dari 24 menjadi 48 timestep. | Final berdasarkan hasil eksperimen. | [LINK DEPLOYMENT WEATHER V2] | Hasil eksperimen dibandingkan dengan V1 berdasarkan Val Loss, MAE, dan RMSE. |
